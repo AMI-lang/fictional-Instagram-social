@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200;300;400&family=Libre+Baskerville:wght@400;700&family=Lobster&family=Montserrat:wght@300;400;700&family=Roboto:wght@100;300;400;700&display=swap");
-* {
+*,
+::after,
+::before {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -20,6 +22,11 @@ body {
   grid-template-columns: 1fr 4fr;
   min-height: 100vh;
 }
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
 /* General classes */
 .flex {
   display: flex;
@@ -31,10 +38,14 @@ body {
   flex-direction: column;
 }
 .inlineblock {
-      display: inline-block;
+  display: inline-block;
 }
-.f-right {
-      float: right;
+.float {
+  float: right;
+  clear: right;
+}
+.bold {
+  font-weight: 500;
 }
 /* HEADER & NAVBar */
 .newPosts {
@@ -42,6 +53,8 @@ body {
   top: 16px;
   max-width: 100px;
   border: 1px solid rgb(46, 77, 192);
+  left: 50%;
+  transform: translate(50%, 50%);
   margin: auto;
 }
 .navbar {
@@ -120,46 +133,88 @@ a.nav-link {
 }
 .main-container {
   border: 1px solid red;
-  padding: 10px 50px;
+  padding: 10px 70px;
+}
+.social-feed {
+  margin: 0 70px 10px;
+}
+.cards-wrap {
+  margin: 30px 0;
 }
 .followers-avatar {
   border: 2px solid #808080;
   max-width: 500px;
   overflow: auto;
-  margin: 0 0 20px;
-}
-.cards-wrap {
-      margin: 30px 0;
+  border-radius: 10px;
+  gap: 16px;
 }
 .avatar {
   border: 1px solid #262626;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
   flex-shrink: 0;
 }
 .avatar > img {
   max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
 }
 .social-feed {
   border: 1px solid yellow;
   max-width: 75%;
 }
-
+.cards {
+  max-width: 500px;
+  background: #fff;
+  border: 1px solid #8e8e8e;
+  border-radius: 10px;
+  margin-bottom: 18px;
+}
+.card-media {
+  height: 600px;
+}
+.card-header,
+.card-media {
+  border-bottom: 1px solid #8e8e8e;
+}
+.card-footer {
+  padding: 6px;
+  border-top: 1px solid #8e8e8e;
+}
+.card-links {
+  color: #000;
+}
+.card-links:hover {
+  color: #8e8e8e;
+}
+.gray-txt {
+  color: #8e8e8e;
+}
+.blue {
+  color: rgb(170, 211, 248);
+}
+.time-posted {
+  font-size: 0.65rem;
+}
+.icons,
+.card-interact p {
+  margin: 14px 0;
+}
+.icons > a {
+  padding: 0 6px 0 0;
+}
+.card-interact {
+  padding: 8px;
+}
+input[type="text"] {
+  min-height: 30px;
+  width: 85%;
+  outline: none;
+  background: #fff;
+  border: none;
+}
 .user-followers {
   /* to be deleted */
   border: 1px solid rgb(46, 77, 192);
-}
-/* to be deleted */
-.cards {
-  max-width: 500px;
-  border: 1px solid #808080;
-}
-.card-media {
-  max-height: 600px;
-}
-.card-header {
-  border-bottom: 1px solid #808080;
-}
-.card-footer {
-  border-top: 1px solid #808080;
 }
