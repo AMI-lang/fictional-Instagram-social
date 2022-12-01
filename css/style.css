@@ -30,12 +30,18 @@ body {
 .flex-column {
   flex-direction: column;
 }
-
+.inlineblock {
+      display: inline-block;
+}
+.f-right {
+      float: right;
+}
 /* HEADER & NAVBar */
 .newPosts {
   position: sticky;
   top: 16px;
   max-width: 100px;
+  border: 1px solid rgb(46, 77, 192);
   margin: auto;
 }
 .navbar {
@@ -68,6 +74,9 @@ body {
 a.nav-link {
   color: #262626;
   padding: 4px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 .active {
   font-weight: 700;
@@ -76,7 +85,7 @@ a.nav-link {
   margin-left: 22px;
 }
 .mLeft2 {
-  margin-left: 16px;
+  margin-left: 12px;
 }
 .nav-icons li,
 .nav-btn li {
@@ -109,6 +118,48 @@ a.nav-link {
   margin-left: 241px;
   border: 1px solid rgb(46, 77, 192);
 }
-/* .inlineBlock {
-  display: inline-block;
-} */
+.main-container {
+  border: 1px solid red;
+  padding: 10px 50px;
+}
+.followers-avatar {
+  border: 2px solid #808080;
+  max-width: 500px;
+  overflow: auto;
+  margin: 0 0 20px;
+}
+.cards-wrap {
+      margin: 30px 0;
+}
+.avatar {
+  border: 1px solid #262626;
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+}
+.avatar > img {
+  max-width: 100%;
+}
+.social-feed {
+  border: 1px solid yellow;
+  max-width: 75%;
+}
+
+.user-followers {
+  /* to be deleted */
+  border: 1px solid rgb(46, 77, 192);
+}
+/* to be deleted */
+.cards {
+  max-width: 500px;
+  border: 1px solid #808080;
+}
+.card-media {
+  max-height: 600px;
+}
+.card-header {
+  border-bottom: 1px solid #808080;
+}
+.card-footer {
+  border-top: 1px solid #808080;
+}
