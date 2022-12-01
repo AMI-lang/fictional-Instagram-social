@@ -7,7 +7,7 @@
   margin: 0;
 }
 body {
-  background: gainsboro;
+  background: #fafafa;
   min-height: 100vh;
   font-family: "Roboto", sans-serif;
 }
@@ -20,7 +20,7 @@ body {
 .grid-body {
   display: grid;
   grid-template-columns: 1fr 4fr;
-  min-height: 100vh;
+  overflow-x: hidden;
 }
 
 .material-symbols-outlined {
@@ -34,6 +34,9 @@ body {
 .align-center {
   align-items: center;
 }
+.J-start {
+      align-items: flex-end;
+}
 .flex-column {
   flex-direction: column;
 }
@@ -45,7 +48,10 @@ body {
   clear: right;
 }
 .bold {
-  font-weight: 500;
+  font-weight: 600;
+}
+.block {
+  display: block;
 }
 /* HEADER & NAVBar */
 .newPosts {
@@ -59,7 +65,7 @@ body {
 }
 .navbar {
   background-color: #fff;
-  border-right: 1px solid #808080;
+  border-right: 1px solid #dbdbdb;
   position: fixed;
   left: 0;
   top: 0;
@@ -98,7 +104,7 @@ a.nav-link {
   margin-left: 22px;
 }
 .mLeft2 {
-  margin-left: 12px;
+  margin-left: 8px;
 }
 .nav-icons li,
 .nav-btn li {
@@ -116,40 +122,45 @@ a.nav-link {
 }
 .user-avatar-mini {
   margin: 0 6px;
-  display: inline-block;
-  max-width: 30px;
+  display: block;
+  width: 38px;
   border-radius: 100%;
 }
 .user-avatar-mini > img {
   max-width: 100%;
-  height: 100%;
+  height: 38px;
   border-radius: 100%;
+  object-fit: cover;
 }
 
 /* MAIN SECTION */
 .main {
   margin-left: 241px;
   border: 1px solid rgb(46, 77, 192);
+  width: 100%;
+  background-color: #fafafa;
 }
 .main-container {
   border: 1px solid red;
   padding: 10px 70px;
+  gap: 40px;
+  justify-content: center;
 }
-.social-feed {
-  margin: 0 70px 10px;
-}
+/* .social-feed {
+
+} */
 .cards-wrap {
   margin: 30px 0;
 }
 .followers-avatar {
-  border: 2px solid #808080;
+  border: 2px solid #dbdbdb;
   max-width: 500px;
   overflow: auto;
   border-radius: 10px;
   gap: 16px;
 }
 .avatar {
-  border: 1px solid #262626;
+  border: 1px solid #dbdbdb;
   width: 80px;
   height: 80px;
   border-radius: 40px;
@@ -167,7 +178,7 @@ a.nav-link {
 .cards {
   max-width: 500px;
   background: #fff;
-  border: 1px solid #8e8e8e;
+  border: 1px solid #dbdbdb;
   border-radius: 10px;
   margin-bottom: 18px;
 }
@@ -176,11 +187,11 @@ a.nav-link {
 }
 .card-header,
 .card-media {
-  border-bottom: 1px solid #8e8e8e;
+  border-bottom: 1px solid #dbdbdb;
 }
 .card-footer {
   padding: 6px;
-  border-top: 1px solid #8e8e8e;
+  border-top: 1px solid #dbdbdb;
 }
 .card-links {
   color: #000;
@@ -194,7 +205,7 @@ a.nav-link {
 .blue {
   color: rgb(170, 211, 248);
 }
-.time-posted {
+.time-posted , .f-sm{
   font-size: 0.65rem;
 }
 .icons,
@@ -213,8 +224,25 @@ input[type="text"] {
   outline: none;
   background: #fff;
   border: none;
+
 }
 .user-followers {
   /* to be deleted */
   border: 1px solid rgb(46, 77, 192);
+}
+.user {
+  justify-content: space-between;
+  gap: 55px;
+  border: 1px solid #000;
+}
+.user > div, .gap{
+  gap: 10px;
+}
+.follow-btn {
+      border: none;
+      background: none;
+      outline: none;
+      color: #5daef7;
+      font-weight: 700;
+      cursor: pointer !important;
 }
