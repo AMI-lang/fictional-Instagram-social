@@ -12,6 +12,7 @@ body {
   background: #fafafa;
   min-height: 100vh;
   font-family: "Roboto", sans-serif;
+  font-size: 0.875rem;
 }
 
 * li {
@@ -38,10 +39,6 @@ body {
 
 .align-center {
   align-items: center;
-}
-
-.J-start {
-  align-items: flex-end;
 }
 
 .flex-column {
@@ -154,8 +151,8 @@ a.nav-link {
 .user-avatar-mini {
   margin: 0 8px;
   display: block;
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
   border-radius: 100%;
 }
 
@@ -234,6 +231,11 @@ span.absolute {
   object-fit: cover;
   outline: 2px solid #fff;
 }
+.avatar2 {
+  background-clip: unset !important;
+  background: none !important;
+}
+
 .cards {
   max-width: 470px;
   background: #fff;
