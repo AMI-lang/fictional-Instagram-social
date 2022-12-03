@@ -36,31 +36,29 @@ body {
 .flex {
   display: flex;
 }
-
 .align-center {
   align-items: center;
 }
-
 .flex-column {
   flex-direction: column;
 }
-
 .inlineblock {
   display: inline-block;
 }
-
 .float {
   float: right;
   clear: right;
 }
-
 .bold {
   font-weight: 600;
 }
-
 .block {
   display: block;
 }
+.f-wrap {
+  flex-wrap: wrap;
+}
+
 
 /* HEADER & NAVBar */
 .newPosts {
@@ -352,10 +350,18 @@ footer > p {
   color: #cccccc;
   font-size: 0.75rem;
 }
-
+footer span::after {
+  content: "\002E";
+  padding: 0 5px 1rem;
+  color: #cccccc;
+}
+.footer a{
+      padding: 0.375rem 0;
+}
 .footer a:hover {
   text-decoration: underline;
 }
+
 @media (max-width: 1192px) and (max-width: 990px) {
   .main-container {
     flex-wrap: wrap;
