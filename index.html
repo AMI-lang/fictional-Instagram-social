@@ -17,600 +17,635 @@
 </head>
 
 <body>
-      <nav class="navbar">
-            <div class="nav-container flex flex-column">
-                  <div class="brand mLeft">
-                        <a href="https://images.app.goo.gl/TzWKFbosJUE9sQqw8"><img src="/images/Insta_logo.png"
-                                    alt="logo" /></a>
-                  </div>
-                  <div class="mini-brand">
-                        <a href="#home"><img src="/images/black-n-white--logo-preview.png" alt="brand icon"></a>
-                  </div>
-                  <div class="nav-links-wrap flex">
-                        <ul class="nav-icons flex flex-column">
+      <header class="newPosts">
+            <p>New post</p>
+      </header>
+      <section class="grid">
+            <nav class="navbar">
+                  <div class="nav-container flex flex-column">
+                        <div class="brand mLeft">
+                              <a href="https://images.app.goo.gl/TzWKFbosJUE9sQqw8"><img src="/images/Insta_logo.png"
+                                          alt="logo" /></a>
+                        </div>
+                        <div class="mini-brand">
+                              <a href="#home"><img src="/images/black-n-white--logo-preview.png" alt="brand icon"></a>
+                        </div>
+                        <div class="nav-links-wrap flex">
+                              <ul class="nav-icons flex flex-column">
+                                    <li>
+                                          <a href="#" class="nav-link">
+                                                <div><i class="fa-solid fa-house fa-xl fa-fw"></i></div>
+                                                <span class="hide-md active mLeft">Home</span>
+                                          </a>
+                                    </li>
+                                    <li>
+                                          <a href="#" class="nav-link">
+                                                <div><i class="fa-solid fa-magnifying-glass fa-xl fa-fw"></i></div>
+                                                <span class="hide-md mLeft">Search</span>
+                                          </a>
+                                    </li>
+                                    <li>
+                                          <a href="#" class="nav-link">
+                                                <div><i class="fa-regular fa-compass fa-xl fa-fw"></i></div>
+                                                <span class="hide-md mLeft">Explore</span>
+                                          </a>
+                                    </li>
+                                    <li>
+                                          <a href="#" class="nav-link">
+                                                <div><i class="fa-solid fa-clapperboard fa-xl fa-fw"></i></div>
+                                                <span class="hide-md mLeft">Reels</span>
+                                          </a>
+                                    </li>
+                                    <li>
+                                          <a href="#" class="nav-link">
+                                                <div><i class="fa-regular fa-comment fa-xl fa-fw"></i></div>
+                                                <span class="hide-md mLeft">Messages</span>
+                                          </a>
+                                    </li>
+                                    <li>
+                                          <a href="#" class="nav-link">
+                                                <div><i class="fa-regular fa-heart fa-xl fa-fw"></i></div>
+                                                <span class="hide-md mLeft">Notifications</span>
+                                          </a>
+                                    </li>
+                                    <li>
+                                          <a href="#" class="nav-link">
+                                                <div><i class="fa-regular fa-square-plus fa-xl fa-fw"></i></div>
+                                                <span class="hide-md mLeft">Create</span>
+                                          </a>
+                                    </li>
+                                    <li class="last">
+                                          <a href="#" class="nav-link flex align-center">
+                                                <i class="user-avatar-mini"><img src="/images/user-avatar.jpg"
+                                                            alt="A" /></i>
+                                                <span class="hide-md mLeft2">Profile</span>
+                                          </a>
+                                    </li>
+                              </ul>
+                        </div>
+                        <ul class="nav-btn">
                               <li>
                                     <a href="#" class="nav-link">
-                                          <div><i class="fa-solid fa-house fa-xl fa-fw"></i></div>
-                                          <span class="hide-md active mLeft">Home</span>
-                                    </a>
-                              </li>
-                              <li>
-                                    <a href="#" class="nav-link">
-                                          <div><i class="fa-solid fa-magnifying-glass fa-xl fa-fw"></i></div>
-                                          <span class="hide-md mLeft">Search</span>
-                                    </a>
-                              </li>
-                              <li>
-                                    <a href="#" class="nav-link">
-                                          <div><i class="fa-regular fa-compass fa-xl fa-fw"></i></div>
-                                          <span class="hide-md mLeft">Explore</span>
-                                    </a>
-                              </li>
-                              <li>
-                                    <a href="#" class="nav-link">
-                                          <div><i class="fa-solid fa-clapperboard fa-xl fa-fw"></i></div>
-                                          <span class="hide-md mLeft">Reels</span>
-                                    </a>
-                              </li>
-                              <li>
-                                    <a href="#" class="nav-link">
-                                          <div><i class="fa-regular fa-comment fa-xl fa-fw"></i></div>
-                                          <span class="hide-md mLeft">Messages</span>
-                                    </a>
-                              </li>
-                              <li>
-                                    <a href="#" class="nav-link">
-                                          <div><i class="fa-regular fa-heart fa-xl fa-fw"></i></div>
-                                          <span class="hide-md mLeft">Notifications</span>
-                                    </a>
-                              </li>
-                              <li>
-                                    <a href="#" class="nav-link">
-                                          <div><i class="fa-regular fa-square-plus fa-xl fa-fw"></i></div>
-                                          <span class="hide-md mLeft">Create</span>
-                                    </a>
-                              </li>
-                              <li class="last">
-                                    <a href="#" class="nav-link flex align-center">
-                                          <i class="user-avatar-mini"><img src="/images/user-avatar.jpg" alt="A" /></i>
-                                          <span class="hide-md mLeft2">Profile</span>
+                                          <div><i class="fa-solid fa-bars fa-xl fa-fw"></i></div>
+                                          <span class="hide-md  mLeft">More</span>
                                     </a>
                               </li>
                         </ul>
                   </div>
-                  <ul class="nav-btn">
-                        <li>
-                              <a href="#" class="nav-link">
-                                    <div><i class="fa-solid fa-bars fa-xl fa-fw"></i></div>
-                                    <span class="hide-md  mLeft">More</span>
-                              </a>
-                        </li>
-                  </ul>
-            </div>
-      </nav>
-      <!-- MAIN CONTENT -->
-      <main class="main">
-            <header class="newPosts">
-                  <p>New post</p>
-            </header>
-            <div class="main-container flex">
-                  <section class="social-feed">
-                        <div class="followers-avatar flex">
-                              <div class="story flex flex-column align-center">
-                                    <div class="avatar">
-                                          <img src="/images/avatar-unsplash-three.jpg" alt="" />
-                                    </div>
-                                    <p class="f-m">citylight_d</p>
-                              </div>
-                              <div class="story flex flex-column align-center">
-                                    <div class="avatar">
-                                          <img src="/images/avatar-four-unsplash.jpg" alt="" />
-                                    </div>
-                                    <p class="f-m">_fatimxhh~</p>
-                              </div>
-                              <div class="story flex flex-column align-center">
-                                    <div class="avatar">
-                                          <img src="/images/avatar-unsplash-five.jpg" alt="" />
-                                    </div>
-                                    <p class="f-m">_thingss_46~</p>
-                              </div>
-                              <div class="story flex flex-column align-center">
-                                    <div class="avatar">
-                                          <img src="/images/avatar-unsplash-six.jpg" alt="" />
-                                    </div>
-                                    <p class="f-m">lovable_fati~</p>
-                              </div>
-                              <div class="story flex flex-column align-center">
-                                    <div class="avatar">
-                                          <img src="/images/avatar-unsplash-sven.jpg" alt="" />
-                                    </div>
-                                    <p class="f-m">dear.dija~</p>
-                              </div>
-                              <div class="story flex flex-column align-center">
-                                    <div class="avatar">
-                                          <img src="/images/avatar-unsplash-eight.jpg" alt="" />
-                                    </div>
-                                    <p class="f-m">_funlife._s</p>
-                              </div>
-                              <div class="story flex flex-column align-center">
-                                    <div class="avatar">
-                                          <img src="images/avatar-unspalsh-one.jpeg" alt="" />
-                                    </div>
-                                    <p class="f-m">_foodie_slush</p>
-                              </div>
-                              <div class="story flex flex-column align-center">
-                                    <div class="avatar">
-                                          <img src="images/avatar-unsplash-nine.jpg" alt="" />
-                                    </div>
-                                    <p class="f-m">_bigthing_203~</p>
-                              </div>
-                              <div class="story flex flex-column align-center">
-                                    <div class="avatar">
-                                          <img src="/images/avatar-unsplash-three.jpg" alt="" />
-                                    </div>
-                                    <p class="f-m">_wow_you_91</p>
-                              </div>
-                              <div class="story flex flex-column align-center">
-                                    <div class="avatar">
-                                          <img src="/images/avatar-unsplash-four.jpg" alt="" />
-                                    </div>
-                                    <p class="f-m">Queennn_Ami~</p>
-                              </div>
-                              <!-- <span class="absolute" style="color: #fff;">
-                                    <i class="fa-solid fa-circle-chevron-right fa-xl"></i>
-                              </span> -->
-                        </div>
-                        <div class="cards-wrap">
-                              <article class="cards">
-                                    <div class="card-header flex align-center">
-                                          <div>
-                                                <div class="inlineblock img-overlap">
-                                                      <i class="user-avatar-mini relative"><img
-                                                                  src="/images/avatar-unspalsh-one.jpeg" alt="A" /></i>
-                                                      <i class="user-avatar-mini absolute"><img
-                                                                  src="/images/avatar-unsplash-six.jpg" alt="A" /></i>
-                                                </div>
-                                                <h5 class="inlineblock fw-normal">
-                                                      <p class="bold">deepcity and architecture</p>
-                                                      <span class="f-sm">Original design</span>
-                                                </h5>
-                                          </div>
-                                          <div class="inlineblock">
-                                                <a href="#" class="card-links"><i
-                                                            class="fa-solid fa-ellipsis fa-xl"></i></a>
-                                          </div>
-                                    </div>
-                                    <div class="card-media">
-                                          <img src="/images/meric-dagli-7NBO76G5JsE-unsplash.jpg"
-                                                alt="loading image.." />
-                                    </div>
-                                    <div class="card-interact">
-                                          <div class="icons">
-                                                <a href="#" class="card-links"><i
-                                                            class="fa-regular fa-comment fa-xl"></i></a>
-                                                <a href="#" class="card-links"><i
-                                                            class="fa-regular fa-heart fa-xl"></i></a>
-                                                <a href="#" class="card-links"><i
-                                                            class="fa-regular fa-paper-plane fa-xl"></i></a>
-                                                <a href="#" class="card-links"><span
-                                                            class="material-symbols-outlined float">bookmark</span></a>
-                                          </div>
-                                          <p><span class="bold">20 Views</span></p>
-                                          <p class="user-comment">
-                                          <div class="bold popover_container">
-                                                deepcity_&
-                                                <div class="popover_text">
-                                                      <div class="flex align-center gap pop_border-btm">
-                                                            <div class="avatar avatar2 img-border">
-                                                                  <img src="/images/avatar-unsplash-six.jpg" alt="">
-                                                            </div>
-                                                            <div class="user-info">
-                                                                  <p>
-                                                                        <span class="bold block">deepcity and
-                                                                              architecture</span>
-                                                                        <span class="gray-txt">STEEP</span>
-                                                                  </p>
-                                                                  <p>
-                                                                        <a href="#"
-                                                                              class="block pop-link fw-normal">https://youtube.com/deepcity/fah/architect...</a>
-                                                                        <span class="gray-txt">Followed by _.fij__ + 10
-                                                                              more</span>
-                                                                  </p>
-                                                            </div>
-                                                      </div>
-                                                      <div class="flex">
-                                                            <div class="mini-card-col">
-                                                                  <span class="block txt-center">
-                                                                        <span class="bold block">245</span>
-                                                                        <span class="gray-txt">posts</span>
-                                                                  </span>
-                                                                  <img src="/images/avatar-four-unsplash.jpg"
-                                                                        alt="image" width="200px" class="thumbnail">
-                                                            </div>
-                                                            <div class="mini-card-col">
-                                                                  <span class="block txt-center">
-                                                                        <span class="bold block">200k</span>
-                                                                        <span class="gray-txt">followers</span>
-                                                                  </span>
-                                                                  <img src="/images/avatar-unsplash-five.jpg"
-                                                                        alt="image" width="200px" class="thumbnail">
-                                                            </div>
-                                                            <div class="mini-card-col">
-                                                                  <span class="block txt-center">
-                                                                        <span class="bold block">470</span>
-                                                                        <span class="gray-txt">following</span>
-                                                                  </span>
-                                                                  <img src="/images/avatar-unsplash-six.jpg" alt="image"
-                                                                        width="200px" class="thumbnail">
-                                                            </div>
-                                                      </div>
-                                                      <div class="txt-center">
-                                                            <button
-                                                                  class="white-btn inlineblock">Message</button><button
-                                                                  class="white-btn inlineblock">Following</button>
-                                                      </div>
-                                                </div>
-                                          </div> check this out!
-                                          </p>
-                                          <p><span class="gray-txt">View all 5 comments</span></p>
-                                          <p><span class="gray-txt time-posted">5 HOURS AGO</span></p>
-                                    </div>
-                                    <div class="card-footer flex gap align-center">
-                                          <a class="inlineBlock card-links"><i
-                                                      class="fa-regular fa-face-smile fa-xl"></i></a>
-                                          <input type="text" id="comments" placeholder="Add a comment" />
-                                          <a href="" class="inlineBlock blue float">Post</a>
-                                    </div>
-                              </article>
-                              <article class="cards">
-                                    <div class="card-header flex align-center">
-                                          <div>
-                                                <div class="inlineblock img-overlap">
-                                                      <i class="user-avatar-mini relative"><img
-                                                                  src="/images/avatar-unsplash-three.jpg" alt="A" /></i>
-                                                      <i class="user-avatar-mini absolute"><img
-                                                                  src="/images/avatar-unsplash-nine.jpg" alt="A" /></i>
-                                                </div>
-                                                <h5 class="inlineblock fw-normal">
-                                                      <p class="bold">deepcity and architecture</p>
-                                                      <span class="f-sm">Original design</span>
-                                                </h5>
-                                          </div>
-                                          <div class="inlineblock">
-                                                <a href="#" class="card-links"><i
-                                                            class="fa-solid fa-ellipsis fa-xl"></i></a>
-                                          </div>
-                                    </div>
-                                    <div class="card-media">
-                                          <img src="/images/mustafa-chahwala-9IvIEcmxXdM-unsplash.jpg"
-                                                alt="loading image.." />
-                                    </div>
-                                    <div class="card-interact">
-                                          <div class="icons">
-                                                <a href="#" class="card-links"><i
-                                                            class="fa-regular fa-comment fa-xl"></i></a>
-                                                <a href="#" class="card-links"><i
-                                                            class="fa-regular fa-heart fa-xl"></i></a>
-                                                <a href="#" class="card-links"><i
-                                                            class="fa-regular fa-paper-plane fa-xl"></i></a>
-                                                <a href="#" class="card-links"><span
-                                                            class="material-symbols-outlined float">bookmark</span></a>
-                                          </div>
-                                          <p><span class="bold">20 Views</span></p>
-                                          <p class="user-comment">
-                                          <div class="bold popover_container">
-                                                deepcity_&
-                                                <div class="popover_text">
-                                                      <div class="flex align-center gap pop_border-btm">
-                                                            <div class="avatar avatar2 img-border">
-                                                                  <img src="/images/popover-avatar-unsplash1.jpg"
-                                                                        alt="">
-                                                            </div>
-                                                            <div class="user-info">
-                                                                  <p>
-                                                                        <span class="bold block">Funky life on
-                                                                              moon</span>
-                                                                        <span class="gray-txt">CUTE</span>
-                                                                  </p>
-                                                                  <p>
-                                                                        <a href="#"
-                                                                              class="block pop-link fw-normal">https://youtube.com/deepcity/fah/architect...</a>
-                                                                        <span class="gray-txt">Followed by _deejah__ +
-                                                                              30 more</span>
-                                                                  </p>
-                                                            </div>
-                                                      </div>
-                                                      <div class="flex">
-                                                            <div class="mini-card-col">
-                                                                  <span class="block txt-center">
-                                                                        <span class="bold block">1000</span>
-                                                                        <span class="gray-txt">posts</span>
-                                                                  </span>
-                                                                  <img src="/images/avatar-unsplash-three.jpg"
-                                                                        alt="image" width="200px" class="thumbnail">
-                                                            </div>
-                                                            <div class="mini-card-col">
-                                                                  <span class="block txt-center">
-                                                                        <span class="bold block">500k</span>
-                                                                        <span class="gray-txt">followers</span>
-                                                                  </span>
-                                                                  <img src="/images/avatar-unsplash-four.jpg"
-                                                                        alt="image" width="200px" class="thumbnail">
-                                                            </div>
-                                                            <div class="mini-card-col">
-                                                                  <span class="block txt-center">
-                                                                        <span class="bold block">12</span>
-                                                                        <span class="gray-txt">following</span>
-                                                                  </span>
-                                                                  <img src="/images/avatar-unsplash-sven.jpg"
-                                                                        alt="image" width="200px" class="thumbnail">
-                                                            </div>
-                                                      </div>
-                                                      <div class="txt-center">
-                                                            <button
-                                                                  class="white-btn inlineblock">Message</button><button
-                                                                  class="white-btn inlineblock">Following</button>
-                                                      </div>
-                                                </div>
-                                          </div> Welcome to my foodie world!
-                                          </p>
-                                          <p><span class="gray-txt">View all 5 comments</span></p>
-                                          <p><span class="gray-txt time-posted">5 HOURS AGO</span></p>
-                                    </div>
-                                    <div class="card-footer gap flex align-center">
-                                          <a class="inlineBlock card-links"><i
-                                                      class="fa-regular fa-face-smile fa-xl"></i></a>
-                                          <input type="text" id="comments" placeholder="Add a comment" />
-                                          <a href="" class="inlineBlock blue float">Post</a>
-                                    </div>
-                              </article>
-                              <article class="cards">
-                                    <div class="card-header flex align-center">
-                                          <div>
-                                                <div class="inlineblock img-overlap">
-                                                      <i class="user-avatar-mini relative"><img
-                                                                  src="/images/avatar-unsplash-three.jpg" alt="A" /></i>
-                                                      <i class="user-avatar-mini absolute"><img
-                                                                  src="/images/avatar-unsplash-six.jpg" alt="A" /></i>
-                                                </div>
-                                                <h5 class="inlineblock fw-normal">
-                                                      <p class="bold">_fatimxhh_lovely</p>
-                                                      <span class="f-sm">I'm remarkable</span>
-                                                </h5>
-                                          </div>
-                                          <div class="inlineblock">
-                                                <a href="#" class="card-links"><i
-                                                            class="fa-solid fa-ellipsis fa-xl"></i></a>
-                                          </div>
-                                    </div>
-                                    <div class="card-media">
-                                          <img src="/images/helen-unsplash-two.jpg" alt="loading image.." />
-                                    </div>
-                                    <div class="card-interact">
-                                          <div class="icons">
-                                                <a href="#" class="card-links"><i
-                                                            class="fa-regular fa-comment fa-xl"></i></a>
-                                                <a href="#" class="card-links"><i
-                                                            class="fa-regular fa-heart fa-xl"></i></a>
-                                                <a href="#" class="card-links"><i
-                                                            class="fa-regular fa-paper-plane fa-xl"></i></a>
-                                                <a href="#" class="card-links"><span
-                                                            class="material-symbols-outlined float">bookmark</span></a>
-                                          </div>
-                                          <p><span class="bold">199 Views</span></p>
-                                          <p class="user-comment">
-                                          <div class="bold popover_container">
-                                                _fatimxhh_lovely
-                                                <div class="popover_text">
-                                                      <div class="flex align-center gap pop_border-btm">
-                                                            <div class="avatar avatar2 img-border">
-                                                                  <img src="/images/popover-avatar-unsplash2.jpg"
-                                                                        alt="">
-                                                            </div>
-                                                            <div class="user-info">
-                                                                  <p>
-                                                                        <span class="bold block">_fatimxhh_lovely</span>
-                                                                        <span class="gray-txt">GLOW</span>
-                                                                  </p>
-                                                                  <p>
-                                                                        <a href="#"
-                                                                              class="block pop-link fw-normal">https://youtube.com/deepcity/fah/architect...</a>
-                                                                        <span class="gray-txt">Followed by neemah + 5
-                                                                              more</span>
-                                                                  </p>
-                                                            </div>
-                                                      </div>
-                                                      <div class="flex">
-                                                            <div class="mini-card-col">
-                                                                  <span class="block txt-center">
-                                                                        <span class="bold block">10</span>
-                                                                        <span class="gray-txt">posts</span>
-                                                                  </span>
-                                                                  <img src="/images/avatar-unsplash-eight.jpg"
-                                                                        alt="image" width="200px" class="thumbnail">
-                                                            </div>
-                                                            <div class="mini-card-col">
-                                                                  <span class="block txt-center">
-                                                                        <span class="bold block">10000k</span>
-                                                                        <span class="gray-txt">followers</span>
-                                                                  </span>
-                                                                  <img src="/images/mustafa-chahwala-9IvIEcmxXdM-unsplash.jpg"
-                                                                        alt="image" width="200px" class="thumbnail">
-                                                            </div>
-                                                            <div class="mini-card-col">
-                                                                  <span class="block txt-center">
-                                                                        <span class="bold block">200</span>
-                                                                        <span class="gray-txt">following</span>
-                                                                  </span>
-                                                                  <img src="/images/thanos-pal-B_eFkQxj0o4-unsplash.jpg"
-                                                                        alt="image" width="200px" class="thumbnail">
-                                                            </div>
-                                                      </div>
-                                                      <div class="txt-center">
-                                                            <button
-                                                                  class="white-btn inlineblock">Message</button><button
-                                                                  class="white-btn inlineblock">Following</button>
-                                                      </div>
-                                                </div>
-                                          </div> Tried a new suncreen by Glossy Makeups.
-                                          </p>
-                                          <p><span class="gray-txt">View all 8 comments</span></p>
-                                          <p><span class="gray-txt time-posted">5 HOURS AGO</span></p>
-                                    </div>
-                                    <div class="card-footer flex gap align-center">
-                                          <a class="inlineBlock card-links"><i
-                                                      class="fa-regular fa-face-smile fa-xl"></i></a>
-                                          <input type="text" id="comments" placeholder="Add a comment" />
-                                          <a href="" class="inlineBlock blue float">Post</a>
-                                    </div>
-                              </article>
-                              <article class="cards">
-                                    <div class="card-header flex align-center">
-                                          <div>
-                                                <div class="inlineblock img-overlap">
-                                                      <i class="user-avatar-mini relative"><img
-                                                                  src="/images/avatar-unsplash-eight.jpg" alt="A" /></i>
-                                                      <i class="user-avatar-mini absolute"><img
-                                                                  src="/images/avatar-unsplash-nine.jpg" alt="A" /></i>
-                                                </div>
-                                                <h5 class="inlineblock fw-normal">
-                                                      <p class="bold">deepcity and architecture</p>
-                                                      <span class="f-sm">Original design</span>
-                                                </h5>
-                                          </div>
-                                          <div class="inlineblock">
-                                                <a href="#" class="card-links"><i
-                                                            class="fa-solid fa-ellipsis fa-xl"></i></a>
-                                          </div>
-                                    </div>
-                                    <div class="card-media">
-                                          <video src="/images/videofood.MP4" type="video/mp4" controls autoplay loop
-                                                muted></video>
-                                    </div>
-                                    <div class="card-interact">
-                                          <div class="icons">
-                                                <a href="#" class="card-links"><i
-                                                            class="fa-regular fa-comment fa-xl"></i></a>
-                                                <a href="#" class="card-links"><i
-                                                            class="fa-regular fa-heart fa-xl"></i></a>
-                                                <a href="#" class="card-links"><i
-                                                            class="fa-regular fa-paper-plane fa-xl"></i></a>
-                                                <a href="#" class="card-links"><span
-                                                            class="material-symbols-outlined float">bookmark</span></a>
-                                          </div>
-                                          <p><span class="bold">20 Views</span></p>
-                                          <p class="user-comment">
-                                                <span class="bold">lorem</span>issdiosisfjodi
-                                          </p>
-                                          <p><span class="gray-txt">View all 5 comments</span></p>
-                                          <p><span class="gray-txt time-posted">5 HOURS AGO</span></p>
-                                    </div>
-                                    <div class="card-footer gap flex align-center">
-                                          <a class="inlineBlock card-links"><i
-                                                      class="fa-regular fa-face-smile fa-xl"></i></a>
-                                          <input type="text" id="comments" placeholder="Add a comment" />
-                                          <a href="" class="inlineBlock blue float">Post</a>
-                                    </div>
-                              </article>
-                        </div>
-                  </section>
-                  <aside class="user-followers">
-                        <div class="user flex align-center">
-                              <div class="flex align-center">
-                                    <div class="avatar avatar2">
-                                          <img src="/images/user-avatar.jpg" alt="" />
-                                    </div>
-                                    <p>
-                                          <span class="bold block">eternal.Khadijaaa</span>
-                                          <span class="gray-txt"><i>Khadija~</i></span>
-                                    </p>
-                              </div>
-                              <button class="follow-btn">Switch</button>
-                        </div>
-                        <div class="suggestions">
-                              <p>
-                                    <span class="gray-txt bold">suggestions for you</span>
-                                    <span class="inlineblock float">see all</span>
-                              </p>
-                              <article class="user flex align-center">
-                                    <div class="flex align-center">
-                                          <div class="user-avatar-mini">
-                                                <img src="/images/avatar-unspalsh-one.jpeg" alt="" />
-                                          </div>
-                                          <p>
-                                                <span class="block">dear.dija</span>
-                                                <span class="gray-txt f-sm"><i>Follows you~</i></span>
-                                          </p>
-                                    </div>
-                                    <button class="follow-btn">Follow</button>
-                              </article>
-                              <article class="user flex align-center">
-                                    <div class="flex align-center">
-                                          <div class="user-avatar-mini">
-                                                <img src="/images/avatar-four-unsplash.jpg" alt="" />
-                                          </div>
-                                          <p>
-                                                <span class="block">_fatimxhh_</span>
-                                                <span class="gray-txt f-sm"><i>Followed by _.fij__ + 10 more</i></span>
-                                          </p>
-                                    </div>
-                                    <button class="follow-btn">Follow</button>
-                              </article>
-                              <article class="user flex align-center">
-                                    <div class="flex align-center">
-                                          <div class="user-avatar-mini">
+            </nav>
+            <!-- MAIN CONTENT -->
+
+            <main class="main">
+                  <div class="main-container flex">
+                        <section class="social-feed">
+                              <div class="followers-avatar flex">
+                                    <div class="story flex flex-column align-center">
+                                          <div class="avatar">
                                                 <img src="/images/avatar-unsplash-three.jpg" alt="" />
                                           </div>
-                                          <p>
-                                                <span class="block">_thingss_46</span>
-                                                <span class="gray-txt f-sm"><i>New to Instagram</i></span>
-                                          </p>
+                                          <p class="f-m">citylight_d</p>
                                     </div>
-                                    <button class="follow-btn">Follow</button>
-                              </article>
-                              <article class="user flex align-center">
-                                    <div class="flex align-center">
-                                          <div class="user-avatar-mini">
+                                    <div class="story flex flex-column align-center">
+                                          <div class="avatar">
+                                                <img src="/images/avatar-four-unsplash.jpg" alt="" />
+                                          </div>
+                                          <p class="f-m">_fatimxhh~</p>
+                                    </div>
+                                    <div class="story flex flex-column align-center">
+                                          <div class="avatar">
                                                 <img src="/images/avatar-unsplash-five.jpg" alt="" />
                                           </div>
-                                          <p>
-                                                <span class="block">prettyhub_thrifts</span>
-                                                <span class="gray-txt f-sm"><i>Followed by aysherhh._ + 5
-                                                            more</i></span>
-                                          </p>
+                                          <p class="f-m">_thingss_46~</p>
                                     </div>
-                                    <button class="follow-btn">Follow</button>
-                              </article>
-                              <article class="user flex align-center">
-                                    <div class="flex align-center">
-                                          <div class="user-avatar-mini">
+                                    <div class="story flex flex-column align-center">
+                                          <div class="avatar">
                                                 <img src="/images/avatar-unsplash-six.jpg" alt="" />
                                           </div>
+                                          <p class="f-m">lovable_fati~</p>
+                                    </div>
+                                    <div class="story flex flex-column align-center">
+                                          <div class="avatar">
+                                                <img src="/images/avatar-unsplash-sven.jpg" alt="" />
+                                          </div>
+                                          <p class="f-m">dear.dija~</p>
+                                    </div>
+                                    <div class="story flex flex-column align-center">
+                                          <div class="avatar">
+                                                <img src="/images/avatar-unsplash-eight.jpg" alt="" />
+                                          </div>
+                                          <p class="f-m">_funlife._s</p>
+                                    </div>
+                                    <div class="story flex flex-column align-center">
+                                          <div class="avatar">
+                                                <img src="images/avatar-unspalsh-one.jpeg" alt="" />
+                                          </div>
+                                          <p class="f-m">_foodie_slush</p>
+                                    </div>
+                                    <div class="story flex flex-column align-center">
+                                          <div class="avatar">
+                                                <img src="images/avatar-unsplash-nine.jpg" alt="" />
+                                          </div>
+                                          <p class="f-m">_bigthing_203~</p>
+                                    </div>
+                                    <div class="story flex flex-column align-center">
+                                          <div class="avatar">
+                                                <img src="/images/avatar-unsplash-three.jpg" alt="" />
+                                          </div>
+                                          <p class="f-m">_wow_you_91</p>
+                                    </div>
+                                    <div class="story flex flex-column align-center">
+                                          <div class="avatar">
+                                                <img src="/images/avatar-unsplash-four.jpg" alt="" />
+                                          </div>
+                                          <p class="f-m">Queennn_Ami~</p>
+                                    </div>
+                                    <!-- <span class="absolute" style="color: #fff;">
+                                          <i class="fa-solid fa-circle-chevron-right fa-xl"></i>
+                                    </span> -->
+                              </div>
+                              <div class="cards-wrap">
+                                    <article class="cards">
+                                          <div class="card-header flex align-center">
+                                                <div>
+                                                      <div class="inlineblock img-overlap">
+                                                            <i class="user-avatar-mini relative"><img
+                                                                        src="/images/avatar-unspalsh-one.jpeg"
+                                                                        alt="A" /></i>
+                                                            <i class="user-avatar-mini absolute"><img
+                                                                        src="/images/avatar-unsplash-six.jpg"
+                                                                        alt="A" /></i>
+                                                      </div>
+                                                      <h5 class="inlineblock fw-normal">
+                                                            <p class="bold">deepcity and architecture</p>
+                                                            <span class="f-sm">Original design</span>
+                                                      </h5>
+                                                </div>
+                                                <div class="inlineblock">
+                                                      <a href="#" class="card-links"><i
+                                                                  class="fa-solid fa-ellipsis fa-xl"></i></a>
+                                                </div>
+                                          </div>
+                                          <div class="card-media">
+                                                <img src="/images/meric-dagli-7NBO76G5JsE-unsplash.jpg"
+                                                      alt="loading image.." />
+                                          </div>
+                                          <div class="card-interact">
+                                                <div class="icons">
+                                                      <a href="#" class="card-links"><i
+                                                                  class="fa-regular fa-comment fa-xl"></i></a>
+                                                      <a href="#" class="card-links"><i
+                                                                  class="fa-regular fa-heart fa-xl"></i></a>
+                                                      <a href="#" class="card-links"><i
+                                                                  class="fa-regular fa-paper-plane fa-xl"></i></a>
+                                                      <a href="#" class="card-links"><span
+                                                                  class="material-symbols-outlined float">bookmark</span></a>
+                                                </div>
+                                                <p><span class="bold">20 Views</span></p>
+                                                <p class="user-comment">
+                                                <div class="bold popover_container">
+                                                      deepcity_&
+                                                      <div class="popover_text">
+                                                            <div class="flex align-center gap pop_border-btm">
+                                                                  <div class="avatar avatar2 img-border">
+                                                                        <img src="/images/avatar-unsplash-six.jpg"
+                                                                              alt="">
+                                                                  </div>
+                                                                  <div class="user-info">
+                                                                        <p>
+                                                                              <span class="bold block">deepcity and
+                                                                                    architecture</span>
+                                                                              <span class="gray-txt">STEEP</span>
+                                                                        </p>
+                                                                        <p>
+                                                                              <a href="#"
+                                                                                    class="block pop-link fw-normal">https://youtube.com/deepcity/fah/architect...</a>
+                                                                              <span class="gray-txt">Followed by _.fij__
+                                                                                    + 10
+                                                                                    more</span>
+                                                                        </p>
+                                                                  </div>
+                                                            </div>
+                                                            <div class="flex">
+                                                                  <div class="mini-card-col">
+                                                                        <span class="block txt-center">
+                                                                              <span class="bold block">245</span>
+                                                                              <span class="gray-txt">posts</span>
+                                                                        </span>
+                                                                        <img src="/images/avatar-four-unsplash.jpg"
+                                                                              alt="image" width="200px"
+                                                                              class="thumbnail">
+                                                                  </div>
+                                                                  <div class="mini-card-col">
+                                                                        <span class="block txt-center">
+                                                                              <span class="bold block">200k</span>
+                                                                              <span class="gray-txt">followers</span>
+                                                                        </span>
+                                                                        <img src="/images/avatar-unsplash-five.jpg"
+                                                                              alt="image" width="200px"
+                                                                              class="thumbnail">
+                                                                  </div>
+                                                                  <div class="mini-card-col">
+                                                                        <span class="block txt-center">
+                                                                              <span class="bold block">470</span>
+                                                                              <span class="gray-txt">following</span>
+                                                                        </span>
+                                                                        <img src="/images/avatar-unsplash-six.jpg"
+                                                                              alt="image" width="200px"
+                                                                              class="thumbnail">
+                                                                  </div>
+                                                            </div>
+                                                            <div class="txt-center">
+                                                                  <button
+                                                                        class="white-btn inlineblock">Message</button><button
+                                                                        class="white-btn inlineblock">Following</button>
+                                                            </div>
+                                                      </div>
+                                                </div> check this out!
+                                                </p>
+                                                <p><span class="gray-txt">View all 5 comments</span></p>
+                                                <p><span class="gray-txt time-posted">5 HOURS AGO</span></p>
+                                          </div>
+                                          <div class="card-footer flex gap align-center">
+                                                <a class="inlineBlock card-links"><i
+                                                            class="fa-regular fa-face-smile fa-xl"></i></a>
+                                                <input type="text" id="comments" placeholder="Add a comment" />
+                                                <a href="" class="inlineBlock blue float">Post</a>
+                                          </div>
+                                    </article>
+                                    <article class="cards">
+                                          <div class="card-header flex align-center">
+                                                <div>
+                                                      <div class="inlineblock img-overlap">
+                                                            <i class="user-avatar-mini relative"><img
+                                                                        src="/images/avatar-unsplash-three.jpg"
+                                                                        alt="A" /></i>
+                                                            <i class="user-avatar-mini absolute"><img
+                                                                        src="/images/avatar-unsplash-nine.jpg"
+                                                                        alt="A" /></i>
+                                                      </div>
+                                                      <h5 class="inlineblock fw-normal">
+                                                            <p class="bold">deepcity and architecture</p>
+                                                            <span class="f-sm">Original design</span>
+                                                      </h5>
+                                                </div>
+                                                <div class="inlineblock">
+                                                      <a href="#" class="card-links"><i
+                                                                  class="fa-solid fa-ellipsis fa-xl"></i></a>
+                                                </div>
+                                          </div>
+                                          <div class="card-media">
+                                                <img src="/images/mustafa-chahwala-9IvIEcmxXdM-unsplash.jpg"
+                                                      alt="loading image.." />
+                                          </div>
+                                          <div class="card-interact">
+                                                <div class="icons">
+                                                      <a href="#" class="card-links"><i
+                                                                  class="fa-regular fa-comment fa-xl"></i></a>
+                                                      <a href="#" class="card-links"><i
+                                                                  class="fa-regular fa-heart fa-xl"></i></a>
+                                                      <a href="#" class="card-links"><i
+                                                                  class="fa-regular fa-paper-plane fa-xl"></i></a>
+                                                      <a href="#" class="card-links"><span
+                                                                  class="material-symbols-outlined float">bookmark</span></a>
+                                                </div>
+                                                <p><span class="bold">20 Views</span></p>
+                                                <p class="user-comment">
+                                                <div class="bold popover_container">
+                                                      deepcity_&
+                                                      <div class="popover_text">
+                                                            <div class="flex align-center gap pop_border-btm">
+                                                                  <div class="avatar avatar2 img-border">
+                                                                        <img src="/images/popover-avatar-unsplash1.jpg"
+                                                                              alt="">
+                                                                  </div>
+                                                                  <div class="user-info">
+                                                                        <p>
+                                                                              <span class="bold block">Funky life on
+                                                                                    moon</span>
+                                                                              <span class="gray-txt">CUTE</span>
+                                                                        </p>
+                                                                        <p>
+                                                                              <a href="#"
+                                                                                    class="block pop-link fw-normal">https://youtube.com/deepcity/fah/architect...</a>
+                                                                              <span class="gray-txt">Followed by
+                                                                                    _deejah__ +
+                                                                                    30 more</span>
+                                                                        </p>
+                                                                  </div>
+                                                            </div>
+                                                            <div class="flex">
+                                                                  <div class="mini-card-col">
+                                                                        <span class="block txt-center">
+                                                                              <span class="bold block">1000</span>
+                                                                              <span class="gray-txt">posts</span>
+                                                                        </span>
+                                                                        <img src="/images/avatar-unsplash-three.jpg"
+                                                                              alt="image" width="200px"
+                                                                              class="thumbnail">
+                                                                  </div>
+                                                                  <div class="mini-card-col">
+                                                                        <span class="block txt-center">
+                                                                              <span class="bold block">500k</span>
+                                                                              <span class="gray-txt">followers</span>
+                                                                        </span>
+                                                                        <img src="/images/avatar-unsplash-four.jpg"
+                                                                              alt="image" width="200px"
+                                                                              class="thumbnail">
+                                                                  </div>
+                                                                  <div class="mini-card-col">
+                                                                        <span class="block txt-center">
+                                                                              <span class="bold block">12</span>
+                                                                              <span class="gray-txt">following</span>
+                                                                        </span>
+                                                                        <img src="/images/avatar-unsplash-sven.jpg"
+                                                                              alt="image" width="200px"
+                                                                              class="thumbnail">
+                                                                  </div>
+                                                            </div>
+                                                            <div class="txt-center">
+                                                                  <button
+                                                                        class="white-btn inlineblock">Message</button><button
+                                                                        class="white-btn inlineblock">Following</button>
+                                                            </div>
+                                                      </div>
+                                                </div> Welcome to my foodie world!
+                                                </p>
+                                                <p><span class="gray-txt">View all 5 comments</span></p>
+                                                <p><span class="gray-txt time-posted">5 HOURS AGO</span></p>
+                                          </div>
+                                          <div class="card-footer gap flex align-center">
+                                                <a class="inlineBlock card-links"><i
+                                                            class="fa-regular fa-face-smile fa-xl"></i></a>
+                                                <input type="text" id="comments" placeholder="Add a comment" />
+                                                <a href="" class="inlineBlock blue float">Post</a>
+                                          </div>
+                                    </article>
+                                    <article class="cards">
+                                          <div class="card-header flex align-center">
+                                                <div>
+                                                      <div class="inlineblock img-overlap">
+                                                            <i class="user-avatar-mini relative"><img
+                                                                        src="/images/avatar-unsplash-three.jpg"
+                                                                        alt="A" /></i>
+                                                            <i class="user-avatar-mini absolute"><img
+                                                                        src="/images/avatar-unsplash-six.jpg"
+                                                                        alt="A" /></i>
+                                                      </div>
+                                                      <h5 class="inlineblock fw-normal">
+                                                            <p class="bold">_fatimxhh_lovely</p>
+                                                            <span class="f-sm">I'm remarkable</span>
+                                                      </h5>
+                                                </div>
+                                                <div class="inlineblock">
+                                                      <a href="#" class="card-links"><i
+                                                                  class="fa-solid fa-ellipsis fa-xl"></i></a>
+                                                </div>
+                                          </div>
+                                          <div class="card-media">
+                                                <img src="/images/helen-unsplash-two.jpg" alt="loading image.." />
+                                          </div>
+                                          <div class="card-interact">
+                                                <div class="icons">
+                                                      <a href="#" class="card-links"><i
+                                                                  class="fa-regular fa-comment fa-xl"></i></a>
+                                                      <a href="#" class="card-links"><i
+                                                                  class="fa-regular fa-heart fa-xl"></i></a>
+                                                      <a href="#" class="card-links"><i
+                                                                  class="fa-regular fa-paper-plane fa-xl"></i></a>
+                                                      <a href="#" class="card-links"><span
+                                                                  class="material-symbols-outlined float">bookmark</span></a>
+                                                </div>
+                                                <p><span class="bold">199 Views</span></p>
+                                                <p class="user-comment">
+                                                <div class="bold popover_container">
+                                                      _fatimxhh_lovely
+                                                      <div class="popover_text">
+                                                            <div class="flex align-center gap pop_border-btm">
+                                                                  <div class="avatar avatar2 img-border">
+                                                                        <img src="/images/popover-avatar-unsplash2.jpg"
+                                                                              alt="">
+                                                                  </div>
+                                                                  <div class="user-info">
+                                                                        <p>
+                                                                              <span
+                                                                                    class="bold block">_fatimxhh_lovely</span>
+                                                                              <span class="gray-txt">GLOW</span>
+                                                                        </p>
+                                                                        <p>
+                                                                              <a href="#"
+                                                                                    class="block pop-link fw-normal">https://youtube.com/deepcity/fah/architect...</a>
+                                                                              <span class="gray-txt">Followed by neemah
+                                                                                    + 5
+                                                                                    more</span>
+                                                                        </p>
+                                                                  </div>
+                                                            </div>
+                                                            <div class="flex">
+                                                                  <div class="mini-card-col">
+                                                                        <span class="block txt-center">
+                                                                              <span class="bold block">10</span>
+                                                                              <span class="gray-txt">posts</span>
+                                                                        </span>
+                                                                        <img src="/images/avatar-unsplash-eight.jpg"
+                                                                              alt="image" width="200px"
+                                                                              class="thumbnail">
+                                                                  </div>
+                                                                  <div class="mini-card-col">
+                                                                        <span class="block txt-center">
+                                                                              <span class="bold block">10000k</span>
+                                                                              <span class="gray-txt">followers</span>
+                                                                        </span>
+                                                                        <img src="/images/mustafa-chahwala-9IvIEcmxXdM-unsplash.jpg"
+                                                                              alt="image" width="200px"
+                                                                              class="thumbnail">
+                                                                  </div>
+                                                                  <div class="mini-card-col">
+                                                                        <span class="block txt-center">
+                                                                              <span class="bold block">200</span>
+                                                                              <span class="gray-txt">following</span>
+                                                                        </span>
+                                                                        <img src="/images/thanos-pal-B_eFkQxj0o4-unsplash.jpg"
+                                                                              alt="image" width="200px"
+                                                                              class="thumbnail">
+                                                                  </div>
+                                                            </div>
+                                                            <div class="txt-center">
+                                                                  <button
+                                                                        class="white-btn inlineblock">Message</button><button
+                                                                        class="white-btn inlineblock">Following</button>
+                                                            </div>
+                                                      </div>
+                                                </div> Tried a new suncreen by Glossy Makeups.
+                                                </p>
+                                                <p><span class="gray-txt">View all 8 comments</span></p>
+                                                <p><span class="gray-txt time-posted">5 HOURS AGO</span></p>
+                                          </div>
+                                          <div class="card-footer flex gap align-center">
+                                                <a class="inlineBlock card-links"><i
+                                                            class="fa-regular fa-face-smile fa-xl"></i></a>
+                                                <input type="text" id="comments" placeholder="Add a comment" />
+                                                <a href="" class="inlineBlock blue float">Post</a>
+                                          </div>
+                                    </article>
+                                    <article class="cards">
+                                          <div class="card-header flex align-center">
+                                                <div>
+                                                      <div class="inlineblock img-overlap">
+                                                            <i class="user-avatar-mini relative"><img
+                                                                        src="/images/avatar-unsplash-eight.jpg"
+                                                                        alt="A" /></i>
+                                                            <i class="user-avatar-mini absolute"><img
+                                                                        src="/images/avatar-unsplash-nine.jpg"
+                                                                        alt="A" /></i>
+                                                      </div>
+                                                      <h5 class="inlineblock fw-normal">
+                                                            <p class="bold">deepcity and architecture</p>
+                                                            <span class="f-sm">Original design</span>
+                                                      </h5>
+                                                </div>
+                                                <div class="inlineblock">
+                                                      <a href="#" class="card-links"><i
+                                                                  class="fa-solid fa-ellipsis fa-xl"></i></a>
+                                                </div>
+                                          </div>
+                                          <div class="card-media">
+                                                <div style="padding:177.78% 0 0 0;position:relative;z-index: 1;"><iframe
+                                                            src="https://player.vimeo.com/video/780160973?h=5f097908c4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                                                            frameborder="0"
+                                                            allow="autoplay; fullscreen; picture-in-picture"
+                                                            allowfullscreen muted
+                                                            style="position:absolute;top:0;left:0;width:100%;height:65%;z-index: -1;"
+                                                            title="foodie.MP4"></iframe></div>
+                                                <script src="https://player.vimeo.com/api/player.js"></script>
+                                          </div>
+                                          <div class="card-interact">
+                                                <div class="icons">
+                                                      <a href="#" class="card-links"><i
+                                                                  class="fa-regular fa-comment fa-xl"></i></a>
+                                                      <a href="#" class="card-links"><i
+                                                                  class="fa-regular fa-heart fa-xl"></i></a>
+                                                      <a href="#" class="card-links"><i
+                                                                  class="fa-regular fa-paper-plane fa-xl"></i></a>
+                                                      <a href="#" class="card-links"><span
+                                                                  class="material-symbols-outlined float">bookmark</span></a>
+                                                </div>
+                                                <p><span class="bold">20 Views</span></p>
+                                                <p class="user-comment">
+                                                      <span class="bold">lorem</span>issdiosisfjodi
+                                                </p>
+                                                <p><span class="gray-txt">View all 5 comments</span></p>
+                                                <p><span class="gray-txt time-posted">5 HOURS AGO</span></p>
+                                          </div>
+                                          <div class="card-footer gap flex align-center">
+                                                <a class="inlineBlock card-links"><i
+                                                            class="fa-regular fa-face-smile fa-xl"></i></a>
+                                                <input type="text" id="comments" placeholder="Add a comment" />
+                                                <a href="" class="inlineBlock blue float">Post</a>
+                                          </div>
+                                    </article>
+                              </div>
+                        </section>
+                        <aside class="user-followers">
+                              <div class="user flex align-center">
+                                    <div class="flex align-center">
+                                          <div class="avatar avatar2">
+                                                <img src="/images/user-avatar.jpg" alt="" />
+                                          </div>
                                           <p>
-                                                <span class="block">dear.dija</span>
-                                                <span class="gray-txt f-sm"><i>Follows you~</i></span>
+                                                <span class="bold block">eternal.Khadijaaa</span>
+                                                <span class="gray-txt"><i>Khadija~</i></span>
                                           </p>
                                     </div>
-                                    <button class="follow-btn">Follow</button>
-                              </article>
-                        </div>
-                        <footer class="footer">
-                              <div class="flex f-wrap align-center">
-                                    <li class="flex"><a href="#">About</a> <span></span> </li>
-                                    <li class="flex"><a href="#">Help</a> <span></span></li>
-                                    <li class="flex"><a href="#">Press</a> <span></span></li>
-                                    <li class="flex"><a href="#">API</a> <span></span></li>
-                                    <li class="flex"><a href="#">Jobs</a> <span></span></li>
-                                    <li class="flex"><a href="#">Privacy</a> <span></span></li>
-                                    <li class="flex"><a href="#">Terms</a> <span></span></li>
-                                    <li class="flex"><a href="#">Locations</a> <span></span></li>
-                                    <li class="flex"><a href="#">Language</a></li>
+                                    <button class="follow-btn">Switch</button>
                               </div>
-                              <p>&#169; 2022 INSTAGRAM FROM META</p>
-                        </footer>
-                  </aside>
-            </div>
-      </main>
+                              <div class="suggestions">
+                                    <p>
+                                          <span class="gray-txt bold">suggestions for you</span>
+                                          <span class="inlineblock float">see all</span>
+                                    </p>
+                                    <article class="user flex align-center">
+                                          <div class="flex align-center">
+                                                <div class="user-avatar-mini">
+                                                      <img src="/images/avatar-unspalsh-one.jpeg" alt="" />
+                                                </div>
+                                                <p>
+                                                      <span class="block">dear.dija</span>
+                                                      <span class="gray-txt f-sm"><i>Follows you~</i></span>
+                                                </p>
+                                          </div>
+                                          <button class="follow-btn">Follow</button>
+                                    </article>
+                                    <article class="user flex align-center">
+                                          <div class="flex align-center">
+                                                <div class="user-avatar-mini">
+                                                      <img src="/images/avatar-four-unsplash.jpg" alt="" />
+                                                </div>
+                                                <p>
+                                                      <span class="block">_fatimxhh_</span>
+                                                      <span class="gray-txt f-sm"><i>Followed by _.fij__ + 10
+                                                                  more</i></span>
+                                                </p>
+                                          </div>
+                                          <button class="follow-btn">Follow</button>
+                                    </article>
+                                    <article class="user flex align-center">
+                                          <div class="flex align-center">
+                                                <div class="user-avatar-mini">
+                                                      <img src="/images/avatar-unsplash-three.jpg" alt="" />
+                                                </div>
+                                                <p>
+                                                      <span class="block">_thingss_46</span>
+                                                      <span class="gray-txt f-sm"><i>New to Instagram</i></span>
+                                                </p>
+                                          </div>
+                                          <button class="follow-btn">Follow</button>
+                                    </article>
+                                    <article class="user flex align-center">
+                                          <div class="flex align-center">
+                                                <div class="user-avatar-mini">
+                                                      <img src="/images/avatar-unsplash-five.jpg" alt="" />
+                                                </div>
+                                                <p>
+                                                      <span class="block">prettyhub_thrifts</span>
+                                                      <span class="gray-txt f-sm"><i>Followed by aysherhh._ + 5
+                                                                  more</i></span>
+                                                </p>
+                                          </div>
+                                          <button class="follow-btn">Follow</button>
+                                    </article>
+                                    <article class="user flex align-center">
+                                          <div class="flex align-center">
+                                                <div class="user-avatar-mini">
+                                                      <img src="/images/avatar-unsplash-six.jpg" alt="" />
+                                                </div>
+                                                <p>
+                                                      <span class="block">dear.dija</span>
+                                                      <span class="gray-txt f-sm"><i>Follows you~</i></span>
+                                                </p>
+                                          </div>
+                                          <button class="follow-btn">Follow</button>
+                                    </article>
+                              </div>
+                              <footer class="footer">
+                                    <div class="flex f-wrap align-center">
+                                          <li class="flex"><a href="#">About</a> <span></span> </li>
+                                          <li class="flex"><a href="#">Help</a> <span></span></li>
+                                          <li class="flex"><a href="#">Press</a> <span></span></li>
+                                          <li class="flex"><a href="#">API</a> <span></span></li>
+                                          <li class="flex"><a href="#">Jobs</a> <span></span></li>
+                                          <li class="flex"><a href="#">Privacy</a> <span></span></li>
+                                          <li class="flex"><a href="#">Terms</a> <span></span></li>
+                                          <li class="flex"><a href="#">Locations</a> <span></span></li>
+                                          <li class="flex"><a href="#">Language</a></li>
+                                    </div>
+                                    <p>Photos from <a href="https://unsplash.com/" target="_blank"
+                                                class="underline">Unsplash.com</a></p>
+                                    <p>&#169; 2022 INSTAGRAM FROM META</p>
+                              </footer>
+                        </aside>
+                  </div>
+            </main>
+      </section>
       <section class="footer-menu">
             <div class="nav-container flex">
                   <div class="mini-brand">
