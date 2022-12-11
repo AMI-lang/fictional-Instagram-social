@@ -14,9 +14,6 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 0.875rem;
 }
-* {
-  outline: solid 1px red;
-}
 
 * li {
   list-style: none;
@@ -175,7 +172,6 @@ a.nav-link {
   width: 100%;
   background-color: #fafafa;
   margin-bottom: 80px;
-  /* margin-left: 241px; */
 }
 
 .main-container {
@@ -196,8 +192,6 @@ i.absolute {
 .social-feed {
   width: 70%;
   padding: 40px;
-  /* min-width: 320px;
-  max-width: 700px; */
 }
 .user-followers {
   width: 30%;
@@ -254,7 +248,6 @@ i.absolute {
 
 .cards {
   width: 100%;
-  /* min-width: 320px; */
   background: #fff;
   border: 1px solid #dbdbdb;
   border-radius: 10px;
@@ -536,11 +529,11 @@ footer span::after {
     border-radius: 60px;
   }
 }
-@media (min-width:63em) {
-      .social-feed {
-            max-width: 700px;
-      }
-      .user-followers {
-            max-width: 350px;
-      }
+@media (min-width: 63em) {
+  .social-feed {
+    max-width: 700px;
+  }
+  .user-followers {
+    max-width: 350px;
+  }
 }
