@@ -14,6 +14,9 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 0.875rem;
 }
+* {
+  outline: solid 1px red;
+}
 
 * li {
   list-style: none;
@@ -55,7 +58,7 @@ body {
 /* Layout */
 .grid {
   display: grid;
-  grid-template-columns: 1000px;
+  grid-template-columns: 100%;
   justify-content: center;
   margin: auto;
   padding-left: 170px;
@@ -191,9 +194,13 @@ i.absolute {
   left: 40%;
 }
 .social-feed {
-  width: 50%;
-  min-width: 320px;
-  max-width: 470px;
+  width: 70%;
+  padding: 40px;
+  /* min-width: 320px;
+  max-width: 700px; */
+}
+.user-followers {
+  width: 30%;
 }
 .cards-wrap {
   margin: 30px 0;
@@ -203,7 +210,7 @@ i.absolute {
   background-color: #fff;
   border: 1px solid #dbdbdb;
   width: 100%;
-  min-width: 320px;
+  /* min-width: 320px; */
   overflow-x: scroll;
   border-radius: 10px;
   padding: 18px 6px;
@@ -247,16 +254,15 @@ i.absolute {
 
 .cards {
   width: 100%;
-  min-width: 320px;
+  /* min-width: 320px; */
   background: #fff;
   border: 1px solid #dbdbdb;
   border-radius: 10px;
   margin-bottom: 18px;
-
 }
 
 .card-media {
-  max-height: 550px;
+  height: 550px;
 }
 .card-media > img {
   width: 100%;
@@ -328,7 +334,7 @@ input[type="text"] {
 
 .user {
   justify-content: space-between;
-  gap: 55px;
+  gap: 50px;
 }
 
 .user > div,
@@ -436,7 +442,6 @@ footer span::after {
 /* ---Media Queries--- */
 @media (max-width: 36em) {
   .grid {
-    max-width: 500px;
     display: block;
     padding-left: 0;
   }
@@ -447,7 +452,7 @@ footer span::after {
     display: block;
   }
   .main {
-    max-width: 100%;
+    width: 100%;
     margin-left: 0 !important;
   }
   .main-container {
@@ -458,10 +463,15 @@ footer span::after {
     right: 50%;
     left: 0;
   }
+  .social-feed {
+    width: 100%;
+    padding: 20px;
+  }
+  .user-followers {
+    width: 100%;
+  }
   .card-media {
-
     max-height: 350px;
-
   }
   .nav-container {
     flex-direction: row;
@@ -493,9 +503,11 @@ footer span::after {
   }
 }
 @media (max-width: 62em) {
-  .grid {
-    grid-template-columns: 900px;
-    padding-left: 120px;
+  social-feed {
+    width: 80%;
+  }
+  .user-followers {
+    width: 70%;
   }
   .main-container {
     flex-wrap: wrap;
@@ -523,4 +535,12 @@ footer span::after {
   .nav-icons li:hover {
     border-radius: 60px;
   }
+}
+@media (min-width:63em) {
+      .social-feed {
+            max-width: 700px;
+      }
+      .user-followers {
+            max-width: 350px;
+      }
 }
