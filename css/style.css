@@ -315,6 +315,8 @@ i.absolute {
 
 .card-interact {
   padding: 8px;
+  position: relative;
+  z-index: 2;
 }
 
 input[type="text"] {
@@ -327,7 +329,7 @@ input[type="text"] {
 
 .user {
   justify-content: space-between;
-  gap: 50px;
+  gap: 30px;
 }
 
 .user > div,
@@ -430,6 +432,7 @@ footer span::after {
   width: 100%;
   height: 50px;
   display: none;
+  z-index: 9999;
 }
 
 /* ---Media Queries--- */
@@ -463,9 +466,14 @@ footer span::after {
   .user-followers {
     width: 100%;
   }
+  .user {
+    width: 100%;
+    gap: 20px;
+  }
   .card-media {
     max-height: 350px;
   }
+
   .nav-container {
     flex-direction: row;
     width: inherit;
@@ -495,12 +503,25 @@ footer span::after {
     max-height: 350px;
   }
 }
+/* @media (max-width: 48em) {
+  social-feed {
+    width: 90%;
+  }
+  .user-followers {
+    width: 70%;
+  }
+} */
 @media (max-width: 62em) {
+  .grid {
+    padding-left: 50px;
+  }
   social-feed {
     width: 80%;
   }
   .user-followers {
     width: 70%;
+    max-width: 400px;
+    min-width: 300px;
   }
   .main-container {
     flex-wrap: wrap;
@@ -529,11 +550,11 @@ footer span::after {
     border-radius: 60px;
   }
 }
-@media (min-width: 63em) {
+@media (max-width: 82em) {
   .social-feed {
     max-width: 700px;
   }
   .user-followers {
-    max-width: 350px;
+    width: 60%;
   }
 }
