@@ -7,12 +7,7 @@
   padding: 0;
   margin: 0;
 }
-* {
-  outline: 1px solid red;
-}
-.main {
-  background: palegoldenrod;
-}
+
 /* above to be deleted */
 body {
   width: 100%;
@@ -159,9 +154,9 @@ a.nav-link {
 }
 
 /* ----MAIN SECTION (MOBILE FIRST)----*/
-/* .main {
+ .main {
 background-color: #fafafa;
-} */
+}
 
 .main-container {
   padding: 10px 0 50px;
@@ -194,7 +189,7 @@ background-color: #fafafa;
   background-clip: padding-box, border-box;
   background-color: rgb(234, 65, 53);
   background: linear-gradient(
-    90deg,
+    180deg,
     rgba(234, 65, 53, 1) 0%,
     rgba(220, 102, 212, 1) 50%,
     rgba(246, 194, 63, 1) 100%
