@@ -7,11 +7,7 @@
   padding: 0;
   margin: 0;
 }
-form {
-  outline: 1px solid red;
-  flex-basis: 50%;
-}
-/* above to be deleted */
+
 body {
   width: 100%;
   background: #fafafa;
@@ -74,7 +70,10 @@ body {
   max-width: 100%;
 }
 .bg-white {
-      background-color: #fff;
+  background-color: #fff;
+}
+.fa-red {
+  color: rgb(234, 65, 53);
 }
 /* ----Layout---- */
 .grid {
@@ -102,7 +101,11 @@ body {
 .top-nav {
   position: fixed;
   top: 0;
-  padding: 5px 20px;
+  padding: 6px 20px;
+  z-index: 9999;
+}
+form {
+  flex-basis: 50%;
 }
 input[type="search"] {
   padding: 10px;
@@ -115,9 +118,17 @@ input[type="search"] {
   flex-grow: 1;
 }
 ::placeholder {
-      font-size: 1rem;
-      font-weight: 100;
+  font-size: 1rem;
+  font-weight: 100;
 }
+.notify-relat {
+  position: relative;
+}
+.notify-abs {
+      position: absolute;
+      left: 12px;
+}
+/* Side Nav */
 .navbar {
   background-color: transparent;
   border-right: 1px solid #dbdbdb;
@@ -176,6 +187,7 @@ a.nav-link {
   height: 100%;
   border-radius: 100%;
   object-fit: cover;
+  object-position: center;
 }
 
 /* ----MAIN SECTION (MOBILE FIRST)----*/
@@ -228,6 +240,7 @@ a.nav-link {
   height: 100%;
   border-radius: 100%;
   object-fit: cover;
+  object-position: center;
   border: 2px solid #fff;
 }
 .avatar2 {
@@ -242,11 +255,11 @@ a.nav-link {
   margin-bottom: 18px;
 }
 .card-media {
-  height: 470px;
+  height: 500px;
 }
 
 .card-media > img {
-  width: 100%;
+  max-width: 100%;
   height: 100%;
 }
 .card-header,
@@ -385,6 +398,7 @@ footer > p {
   max-width: 100%;
   height: calc(200px - 64px);
   object-fit: cover;
+  object-position: center;
 }
 .white-btn {
   width: 45%;
@@ -419,7 +433,6 @@ footer span::after {
 }
 /* FOOTER MENU */
 .footer-menu {
-  background-color: #fff;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -431,7 +444,7 @@ footer span::after {
 }
 
 /* ---Media Queries--- */
-@media screen and (max-width:31.5em) {
+@media screen and (max-width: 31.5em) {
   html {
     -webkit-overflow-scrolling: none;
     overflow-x: hidden;
@@ -446,7 +459,7 @@ footer span::after {
   .cards-wrap {
     width: 90%;
     padding: 0 10px;
-    max-width: 470px;
+    max-width: 400px;
   }
   .addStory1 {
     display: flex;
