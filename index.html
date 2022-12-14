@@ -18,76 +18,83 @@
 </head>
 
 <body>
-      <!-- <header class="newPosts">
-            <p>New post</p>
-      </header> -->
+      <header class="top-nav bg-white flex f-nowrap justify-btw w-100 align-center">
+            <div class="brand">
+                  <a href="https://images.app.goo.gl/TzWKFbosJUE9sQqw8"><img src="/images/insta-logo-large.png"
+                              alt="logo" /></a>
+            </div>
+            <form class="flex f-nowrap gap align-center">
+                  <input type="search" name="search person" id="search" placeholder="Search">
+                  <a href="#" class="card-links"><i class="fa-regular fa-heart fa-xl"></i></a>
+            </form>
+      </header>
       <section class="grid">
             <nav class="navbar">
-                  <div class="nav-container flex flex-column justify-even">
-                        <div class="brand mLeft">
-                              <a href="https://images.app.goo.gl/TzWKFbosJUE9sQqw8"><img src="/images/Insta_logo.png"
-                                          alt="logo" /></a>
+                  <div class="nav-container flex flex-column justify-even-md bg-white">
+                        <div class="brand">
+                              <a href="https://images.app.goo.gl/TzWKFbosJUE9sQqw8"><img
+                                          src="/images/insta-logo-large.png" alt="logo" /></a>
                         </div>
                         <div class="mini-brand">
                               <a href="#home"><img src="/images/black-n-white--logo-preview.png" alt="brand icon"></a>
                         </div>
-                        <div class="nav-links-wrap flex">
-                              <ul class="nav-icons w-100 flex flex-column">
-                                    <li>
-                                          <a href="#" class="nav-link">
-                                                <div class="fa-div"><i class="fa-solid fa-house fa-xl fa-fw"></i></div>
-                                                <span class="hide-md active mLeft">Home</span>
-                                          </a>
-                                    </li>
-                                    <li>
-                                          <a href="#" class="nav-link">
-                                                <div class="fa-div"><i class="fa-solid fa-magnifying-glass fa-xl fa-fw"></i></div>
-                                                <span class="hide-md mLeft">Search</span>
-                                          </a>
-                                    </li>
-                                    <li>
-                                          <a href="#" class="nav-link">
-                                                <div class="fa-div"><i class="fa-regular fa-compass fa-xl fa-fw"></i></div>
-                                                <span class="hide-md mLeft">Explore</span>
-                                          </a>
-                                    </li>
-                                    <li>
-                                          <a href="#" class="nav-link">
-                                                <div class="fa-div"><i class="fa-solid fa-clapperboard fa-xl fa-fw"></i></div>
-                                                <span class="hide-md mLeft">Reels</span>
-                                          </a>
-                                    </li>
-                                    <li>
-                                          <a href="#" class="nav-link">
-                                                <div class="fa-div"><i class="fa-regular fa-comment fa-xl fa-fw"></i></div>
-                                                <span class="hide-md mLeft align">Messages</span>
-                                          </a>
-                                    </li>
-                                    <li>
-                                          <a href="#" class="nav-link">
-                                                <div class="fa-div"><i class="fa-regular fa-heart fa-xl fa-fw"></i></div>
-                                                <span class="hide-md mLeft">Notifications</span>
-                                          </a>
-                                    </li>
-                                    <li>
-                                          <a href="#" class="nav-link">
-                                                <div class="fa-div"><i class="fa-regular fa-square-plus fa-xl fa-fw"></i></div>
-                                                <span class="hide-md mLeft">Create</span>
-                                          </a>
-                                    </li>
-                                    <li class="last">
-                                          <a href="#" class="nav-link flex align-center">
-                                                <i class="user-avatar-mini"><img src="/images/user-avatar.jpg"
-                                                            alt="A" class="w-100"/></i>
-                                                <span class="hide-md mLeft2">Profile</span>
-                                          </a>
-                                    </li>
-                              </ul>
-                        </div>
-                        <ul class="nav-btn">
+                        <ul class="nav-icons nav-icons-lg w-100 flex flex-column">
                               <li>
                                     <a href="#" class="nav-link">
-                                          <div><i class="fa-solid fa-bars fa-xl fa-fw"></i></div>
+                                          <div class="fa-div"><i class="fa-solid fa-house fa-xl fa-fw"></i></div>
+                                          <span class="hide-md active mLeft">Home</span>
+                                    </a>
+                              </li>
+                              <li>
+                                    <a href="#" class="nav-link">
+                                          <div class="fa-div"><i class="fa-solid fa-magnifying-glass fa-xl fa-fw"></i>
+                                          </div>
+                                          <span class="hide-md mLeft">Search</span>
+                                    </a>
+                              </li>
+                              <li>
+                                    <a href="#" class="nav-link">
+                                          <div class="fa-div"><i class="fa-regular fa-compass fa-xl fa-fw"></i></div>
+                                          <span class="hide-md mLeft">Explore</span>
+                                    </a>
+                              </li>
+                              <li>
+                                    <a href="#" class="nav-link">
+                                          <div class="fa-div"><i class="fa-solid fa-clapperboard fa-xl fa-fw"></i></div>
+                                          <span class="hide-md mLeft">Reels</span>
+                                    </a>
+                              </li>
+                              <li>
+                                    <a href="#" class="nav-link">
+                                          <div class="fa-div"><i class="fa-regular fa-comment fa-xl fa-fw"></i></div>
+                                          <span class="hide-md mLeft align">Messages</span>
+                                    </a>
+                              </li>
+                              <li>
+                                    <a href="#" class="nav-link">
+                                          <div class="fa-div"><i class="fa-regular fa-heart fa-xl fa-fw"></i></div>
+                                          <span class="hide-md mLeft">Notifications</span>
+                                    </a>
+                              </li>
+                              <li>
+                                    <a href="#" class="nav-link">
+                                          <div class="fa-div"><i class="fa-regular fa-square-plus fa-xl fa-fw"></i>
+                                          </div>
+                                          <span class="hide-md mLeft">Create</span>
+                                    </a>
+                              </li>
+                              <li class="last">
+                                    <a href="#" class="nav-link flex align-center">
+                                          <i class="user-avatar-mini"><img src="/images/user-avatar.jpg" alt="A"
+                                                      class="w-100" width="35" /></i>
+                                          <span class="hide-md mLeft2">Profile</span>
+                                    </a>
+                              </li>
+                        </ul>
+                        <ul class="nav-btn w-100">
+                              <li>
+                                    <a href="#" class="nav-link">
+                                          <div class="fa-div"><i class="fa-solid fa-bars fa-xl fa-fw"></i></div>
                                           <span class="hide-md  mLeft">More</span>
                                     </a>
                               </li>
@@ -96,10 +103,13 @@
             </nav>
             <!-- MAIN CONTENT  class="main"   class="social-feed"-->
             <main class="main w-100">
+                  <header class="newPosts bg-white">
+                        <p>New post</p>
+                  </header>
                   <div class="main-container flex">
                         <section class="social-feed flex flex-column align-center">
                               <div class="cards-wrap w-100 max-w">
-                                    <div class="followers-avatar flex w-100">
+                                    <div class="followers-avatar bg-white flex w-100">
                                           <div class="story flex flex-column align-center">
                                                 <div class="avatar">
                                                       <img src="/images/avatar-unsplash-three.jpg" alt="" />
@@ -162,16 +172,16 @@
                                                 <p class="f-m">Queennn_Ami~</p>
                                           </div> -->
                                     </div>
-                                    <article class="cards w-100">
-                                          <div class="card-header flex align-center">
+                                    <article class="cards bg-white w-100">
+                                          <div class="card-header flex justify-btw align-center">
                                                 <div>
                                                       <div class="inlineblock img-overlap">
                                                             <i class="user-avatar-mini relative"><img
-                                                                        src="/images/avatar-unspalsh-one.jpeg"
-                                                                        alt="A" width="30"/></i>
+                                                                        src="/images/avatar-unspalsh-one.jpeg" alt="A"
+                                                                        width="30" /></i>
                                                             <i class="user-avatar-mini absolute"><img
-                                                                        src="/images/avatar-unsplash-six.jpg"
-                                                                        alt="A" width="30"/></i>
+                                                                        src="/images/avatar-unsplash-six.jpg" alt="A"
+                                                                        width="30" /></i>
                                                       </div>
                                                       <h5 class="inlineblock fw-normal">
                                                             <p class="bold">deepcity and architecture</p>
@@ -202,7 +212,7 @@
                                                 <p class="user-comment">
                                                 <div class="bold popover_container">
                                                       deepcity_&
-                                                      <div class="popover_text">
+                                                      <div class="popover_text bg-white">
                                                             <div class="flex align-center gap pop_border-btm">
                                                                   <div class="avatar avatar2 img-border">
                                                                         <img src="/images/avatar-unsplash-six.jpg"
@@ -270,7 +280,7 @@
                                                 <a href="" class="inlineBlock blue float">Post</a>
                                           </div>
                                     </article>
-                                     <article class="cards w-100">
+                                    <article class="cards bg-white w-100">
                                           <div class="card-header flex align-center">
                                                 <div>
                                                       <div class="inlineblock img-overlap">
@@ -310,7 +320,7 @@
                                                 <p class="user-comment">
                                                 <div class="bold popover_container">
                                                       deepcity_&
-                                                      <div class="popover_text">
+                                                      <div class="popover_text bg-white">
                                                             <div class="flex align-center gap pop_border-btm">
                                                                   <div class="avatar avatar2 img-border">
                                                                         <img src="/images/popover-avatar-unsplash1.jpg"
@@ -378,7 +388,7 @@
                                                 <a href="" class="inlineBlock blue float">Post</a>
                                           </div>
                                     </article>
-                                    <article class="cards w-100">
+                                    <article class="cards bg-white w-100">
                                           <div class="card-header flex align-center">
                                                 <div>
                                                       <div class="inlineblock img-overlap">
@@ -417,7 +427,7 @@
                                                 <p class="user-comment">
                                                 <div class="bold popover_container">
                                                       _fatimxhh_lovely
-                                                      <div class="popover_text">
+                                                      <div class="popover_text bg-white">
                                                             <div class="flex align-center gap pop_border-btm">
                                                                   <div class="avatar avatar2 img-border">
                                                                         <img src="/images/popover-avatar-unsplash2.jpg"
@@ -485,7 +495,7 @@
                                                 <a href="" class="inlineBlock blue float">Post</a>
                                           </div>
                                     </article>
-                                    <article class="cards w-100">
+                                    <article class="cards bg-white w-100">
                                           <div class="card-header flex align-center">
                                                 <div>
                                                       <div class="inlineblock img-overlap">
@@ -507,7 +517,8 @@
                                                 </div>
                                           </div>
                                           <div class="card-media">
-                                                <div style="padding:177.78% 0 0 0;position:relative;"><iframe
+                                                <div style="padding:177.78% 0 0 0;position:relative;height:100%;">
+                                                      <iframe
                                                             src="https://player.vimeo.com/video/780160973?h=5f097908c4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
                                                             frameborder="0"
                                                             allow="autoplay; fullscreen; picture-in-picture"
@@ -540,11 +551,11 @@
                                                 <input type="text" id="comments" placeholder="Add a comment" />
                                                 <a href="" class="inlineBlock blue float">Post</a>
                                           </div>
-                                    </article> -->
+                                    </article>
                               </div>
                         </section>
                         <aside class="user-followers w-100">
-                              <div class="user flex align-center">
+                              <div class="user justify-btw flex align-center">
                                     <div class="flex align-center">
                                           <div class="avatar avatar2">
                                                 <img src="/images/user-avatar.jpg" alt="" />
@@ -561,10 +572,10 @@
                                           <span class="gray-txt bold">suggestions for you</span>
                                           <span class="inlineblock float">see all</span>
                                     </p>
-                                    <article class="user flex align-center">
+                                    <article class="user flex align-center justify-btw">
                                           <div class="flex align-center">
                                                 <div class="user-avatar-mini">
-                                                      <img src="/images/avatar-unspalsh-one.jpeg" alt="" width="30"/>
+                                                      <img src="/images/avatar-unspalsh-one.jpeg" alt="" width="30" />
                                                 </div>
                                                 <p>
                                                       <span class="block">dear.dija</span>
@@ -573,10 +584,10 @@
                                           </div>
                                           <button class="follow-btn">Follow</button>
                                     </article>
-                                    <article class="user flex align-center">
+                                    <article class="user flex align-center justify-btw">
                                           <div class="flex align-center">
                                                 <div class="user-avatar-mini">
-                                                      <img src="/images/avatar-four-unsplash.jpg" alt="" width="30"/>
+                                                      <img src="/images/avatar-four-unsplash.jpg" alt="" width="30" />
                                                 </div>
                                                 <p>
                                                       <span class="block">_fatimxhh_</span>
@@ -586,10 +597,10 @@
                                           </div>
                                           <button class="follow-btn">Follow</button>
                                     </article>
-                                    <article class="user flex align-center">
+                                    <article class="user flex align-center justify-btw">
                                           <div class="flex align-center">
                                                 <div class="user-avatar-mini">
-                                                      <img src="/images/avatar-unsplash-three.jpg" alt="" width="30"/>
+                                                      <img src="/images/avatar-unsplash-three.jpg" alt="" width="30" />
                                                 </div>
                                                 <p>
                                                       <span class="block">_thingss_46</span>
@@ -598,10 +609,10 @@
                                           </div>
                                           <button class="follow-btn">Follow</button>
                                     </article>
-                                    <article class="user flex align-center">
+                                    <article class="user flex align-center justify-btw">
                                           <div class="flex align-center">
                                                 <div class="user-avatar-mini">
-                                                      <img src="/images/avatar-unsplash-five.jpg" alt="" width="30"/>
+                                                      <img src="/images/avatar-unsplash-five.jpg" alt="" width="30" />
                                                 </div>
                                                 <p>
                                                       <span class="block">prettyhub_thrifts</span>
@@ -611,10 +622,10 @@
                                           </div>
                                           <button class="follow-btn">Follow</button>
                                     </article>
-                                    <article class="user flex align-center">
+                                    <article class="user flex align-center justify-btw">
                                           <div class="flex align-center">
                                                 <div class="user-avatar-mini">
-                                                      <img src="/images/avatar-unsplash-six.jpg" alt="" width="30"/>
+                                                      <img src="/images/avatar-unsplash-six.jpg" alt="" width="30" />
                                                 </div>
                                                 <p>
                                                       <span class="block">dear.dija</span>
@@ -645,18 +656,13 @@
             </main>
       </section>
       <section class="footer-menu w-100">
-            <div class="nav-container2 w-100">
+            <div class="nav-container2 w-100 h-100">
                   <ul class="nav-icons flex justify-even">
                         <li class="flex align-center p-1">
                               <a href="#" class="nav-link">
                                     <div><i class="fa-solid fa-house fa-xl fa-fw"></i></div>
                               </a>
                         </li>
-                        <!-- <li>
-                              <a href="#" class="nav-link">
-                                    <div><i class="fa-regular fa-compass fa-xl fa-fw"></i></div>
-                              </a>
-                        </li> -->
                         <li class="flex align-center p-1">
                               <a href="#" class="nav-link">
                                     <div><i class="fa-solid fa-magnifying-glass fa-xl fa-fw"></i></div>
@@ -680,15 +686,6 @@
                   </ul>
             </div>
       </section>
-      <!-- <script>
-            function handleFullWidthSizing() {
-                  const scrollbarWidth = window.innerWidth - document.body.clientWidth;
-
-                  document.querySelector(
-                        "myElementWith100vw"
-                  ).style.width = `calc(100vw - ${scrollbarWidth}px)`;
-            }
-      </script> -->
 </body>
 
 </html>
