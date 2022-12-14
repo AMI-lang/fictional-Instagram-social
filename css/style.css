@@ -431,6 +431,13 @@ footer span::after {
 }
 
 /* ---Media Queries--- */
+@media screen and (max-width:31.5em) {
+  html {
+    -webkit-overflow-scrolling: none;
+    overflow-x: hidden;
+    overscroll-behavior: none;
+  }
+}
 @media (min-width: 32em) {
   .grid {
     /* Small devices */
