@@ -555,7 +555,7 @@ footer span::after {
     height: 550px;
   }
   .justify-even-lg {
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
   .nav-container,
   .nav-icons-lg {
@@ -585,7 +585,7 @@ footer span::after {
 }
 
 /* larger height screens */
-@media screen and (min-height: 700px) {
+@media screen and (min-height: 660px) {
   .nav-icons-lg {
     gap: 45px;
   }
